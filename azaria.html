@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Azaria ❤️</title>
+    <style>
+        body {
+            background-color: #ffedf3;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            color: #ff66b3;
+            font-size: 3em;
+            animation: fadeIn 3s ease-in-out;
+        }
+        p {
+            color: #333;
+            font-size: 1.5em;
+            margin-top: 20px;
+        }
+        .heart {
+            font-size: 100px;
+            color: #ff3366;
+            animation: heartbeat 1.5s infinite;
+        }
+        button {
+            background-color: #ff66b3;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-top: 30px;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #ff3385;
+        }
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+        @keyframes heartbeat {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+        }
+    </style>
+</head>
+<body>
+    <h1>Mama, Azaria! ❤️</h1>
+    <p>my baby.</p>
+    <div class="heart">💖</div>
+    <p>i love you sm.</p>
+    <button onclick="showMessage()">Click Me</button>
+
+    <script>
+        function showMessage() {
+            alert("so can i eat you?");
+        }
+    </script>
+</body>
+</html>
